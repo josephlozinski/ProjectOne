@@ -199,7 +199,9 @@ a {
 }
 
 .sidebar .nav-links {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     padding-top: 0.5rem;
 }
@@ -323,6 +325,10 @@ a {
 
     .content-grid{
         grid-template-columns: 3fr 1fr;
+    }
+
+    .sidebar .nav-links {
+        flex-direction: column;
     }
 
 }
